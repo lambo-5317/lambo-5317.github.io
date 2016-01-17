@@ -1,0 +1,20 @@
+body{
+  background: mistyrose;
+}/*背景の色*/
+
+
+a{
+  text-decoration: none;
+}/*リンクの下の線を削除*/
+
+a:link{
+  color: blue;
+}/*クリック前のリンクの色*/  /*link→visited→hoverの順に書く*/
+
+a:visited{
+  color: blue;
+}/*クリック後のリンクの色*/
+
+a:hover{
+  color: red;
+}/*リンクにカーソルを合わせたときの色*/
